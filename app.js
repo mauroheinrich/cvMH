@@ -34,10 +34,10 @@ let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
-crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
+let Go= document.getElementById("Go");
+crearBarra(Go);
+let python = document.getElementById("python");
+crearBarra(python);
 let php = document.getElementById("php");
 crearBarra(php);
 let ilustrator = document.getElementById("ilustrator");
@@ -62,11 +62,11 @@ function efectoHabilidades(){
         const intervalJavascript = setInterval(function(){
             pintarBarra(javascript, 11, 1, intervalJavascript);
         },100);
-        const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 11, 2, intervalWordpress);
+        const intervalGo = setInterval(function(){
+            pintarBarra(Go, 11, 2, intervalGo);
         },100);
-        const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+        const intervalpython = setInterval(function(){
+            pintarBarra(python, 15, 3, intervalpython);
         },100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 16, 4, intervalPhp);
