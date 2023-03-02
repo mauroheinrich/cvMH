@@ -66,13 +66,15 @@ html{
     line-height: 50px;
     cursor: pointer;
     transition: .3s;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .inicio .contenido-seccion header .nav-bar:hover{
     box-shadow: 0 0 35px #fff;
+ margin-top: 35px;	
 }
 .inicio .contenido-seccion .info{
     padding-bottom: 130px;
+	
 }
 .inicio .contenido-seccion .info h1{
     font-size: 3rem;
@@ -186,7 +188,7 @@ html{
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    background: linear-gradient(#89a1d4cc, rgba(170, 54, 54, 0.877)),
     url("habilidades.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -290,7 +292,7 @@ html{
 }
 
 /* SECCION RESPONSIVE */
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
     .habilidades .contenido-seccion .fila{
         display: block;
     }
