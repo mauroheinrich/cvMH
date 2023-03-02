@@ -66,6 +66,7 @@ html{
     line-height: 50px;
     cursor: pointer;
     transition: .3s;
+    margin-top: 20px;
 }
 .inicio .contenido-seccion header .nav-bar:hover{
     box-shadow: 0 0 35px #fff;
